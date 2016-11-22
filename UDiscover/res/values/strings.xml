@@ -2,7 +2,10 @@
 <resources>
 
     <string name="app_name">UDiscover</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome to UDiscover!</string>
     <string name="action_settings">Settings</string>
+    <string name="get_tours">Get Tours</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="get_information">Get Information</string>
 
 </resources>
