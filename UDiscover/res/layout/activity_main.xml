@@ -25,8 +25,9 @@
         android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/get_tours"
-        android:background="#f00"/>
+        android:text="@string/get_tour"
+        android:background="#f00"
+        android:onClick="onToursClicked"/>
 
     <Button
         android:id="@+id/button1"
@@ -34,7 +35,8 @@
         android:layout_height="wrap_content"
 		android:layout_margin="20dp"
         android:text="@string/get_directions"
-        android:background="#CFB53B"/>
+        android:background="#CFB53B"
+        android:onClick="onDirectionsClicked"/>
     
         <Button
         android:id="@+id/button3"
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
 		android:layout_margin="20dp"
         android:text="@string/get_information"
-        android:background="#ffA500"/>
+        android:background="#ffA500"
+        android:onClick="onInformationClicked"/>
 
 </LinearLayout>
